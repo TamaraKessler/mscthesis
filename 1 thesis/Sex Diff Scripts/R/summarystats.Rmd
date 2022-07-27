@@ -1,0 +1,60 @@
+---
+title: "SummaryStats"
+author: "Tamara"
+date: '2022-05-13'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd("D:/Tamara/Data")
+
+```
+
+```{r libraries, include=FALSE, echo=FALSE}
+
+library(tidyverse)
+#library(readxl)
+#library(rio)
+#library(excel.link)
+
+```
+
+```{r aesthetics, echo=FALSE}
+
+theme(theme_classic)
+
+```
+
+```{r read data, echo=FALSE}
+
+full <- read.csv("Full_List.csv")
+
+```
+
+```{r plotty, echo=FALSE}
+
+a <- full %>%
+  group_by(Sex) %>%
+  summarise(
+    meanAge = mean(Age)
+  )
+
+
+a %>%
+  ggplot(
+    aes(
+      x = Sex,
+      y = meanAge,
+      color = Sex,
+      fill = Sex,
+      group = Sex,
+    )
+  ) + geom_bar(
+    stat = "identity",
+    position = "dodge"
+  )
+
+```

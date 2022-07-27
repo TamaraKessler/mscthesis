@@ -1,0 +1,225 @@
+RHLM_Nr,Sex,Modality,Age,Age_Group,Lesion_Size,Aetiology,Territory,Neglect_Score,Diagnosis,Full_Neg,Group
+1,F,CT,72,o,2.525,Infarct,media,3,Neglect,1,NegF
+2,F,T2FLAIR,44,y,61.102,Infarct,media,2,Neglect,0,NegF
+4,M,CT,66,o,11.081,Infarct,media,3,Neglect,1,NegM
+8,M,DWI + T2FLAIR,61,y,17.36,Infarct,posterior,0,Control,0,ConM
+10,M,CT,68,o,2.596,Infarct,media,0,Control,0,ConM
+11,F,CT,56,y,16.152,Infarct,media,0,Control,0,ConF
+12,F,CT,93,o,8.082,Haemorrhage,xxx,3,Neglect,1,NegF
+13,M,T2FLAIR,44,y,130.523,Infarct,media,3,Neglect,1,NegM
+15,F,CT,72,o,78.478,Infarct,media,3,Neglect,1,NegF
+16,M,CT,77,o,11.088,Infarct,media/posterior,2,Neglect,0,NegM
+17,M,DWI + T1,71,o,59.111,Infarct,media,3,Neglect,1,NegM
+18,F,CT,75,o,4.156,Infarct,media,2,Neglect,0,NegF
+20,M,CT,66,o,11.241,Haemorrhage,xxx,3,Neglect,1,NegM
+21,F,CT,56,y,90.127,Infarct,media,3,Neglect,1,NegF
+22,F,CT,76,o,24.093,Haemorrhage,xxx,2,Neglect,0,NegF
+24,F,CT,66,o,75.116,Haemorrhage,xxx,3,Neglect,1,NegF
+25,M,CT,55,y,194.735,Infarct,media,3,Neglect,1,NegM
+26,M,CT,68,o,31.976,Haemorrhage,xxx,3,Neglect,1,NegM
+27,M,CT,58,y,3.732,Haemorrhage,xxx,0,Control,0,ConM
+28,F,CT,71,o,27.571,Haemorrhage,xxx,0,Control,0,ConF
+29,F,DWI + T1,76,o,20.422,Infarct,anterior,0,Control,0,ConF
+30,M,CT,74,o,120.486,Infarct,media,0,Control,0,ConM
+31,M,CT,83,o,40.475,Infarct,posterior,0,Control,0,ConM
+32,F,CT,82,o,21.356,Haemorrhage,xxx,0,Control,0,ConF
+33,F,CT,73,o,36.298,Infarct,media,0,Control,0,ConF
+35,F,DWI + T1,77,o,0.269,Infarct,thalamus,0,Control,0,ConF
+36,F,CT,56,y,6.536,Infarct,media,0,Control,0,ConF
+37,M,CT,72,o,0.663,Infarct,media,0,Control,0,ConM
+39,M,DWI + T1,63,y,17.941,Infarct,media,0,Control,0,ConM
+42,F,CT,54,y,0.36,Infarct,media,0,Control,0,ConF
+44,F,CT,68,o,12.06,Infarct,anterior/media,0,Control,0,ConF
+45,F,CT,68,o,9.232,Infarct,media,0,Control,0,ConF
+47,M,T2FLAIR,59,y,12.399,Infarct,posterior,0,Control,0,ConM
+48,F,CT,54,y,8.391,Infarct,media,0,Control,0,ConF
+50,M,DWI + T1,49,y,3.254,Infarct,posterior,0,Control,0,ConM
+53,M,T2FLAIR,44,y,99.616,Infarct,media,0,Control,0,ConM
+55,M,CT,76,o,101.357,Haemorrhage,xxx,2,Neglect,0,NegM
+57,F,T2FLAIR,42,y,70.515,Infarct,media,1,Control,0,ConF
+59,M,T2FLAIR,46,y,43.634,Infarct,media,3,Neglect,1,NegM
+63,M,T2FLAIR,54,y,20.837,Infarct,posterior,0,Control,0,ConM
+66,F,CT,30,y,22.775,Infarct,media,0,Control,0,ConF
+67,F,T2FLAIR,75,o,55.635,Infarct,media,1,Control,0,ConF
+68,M,T2FLAIR,48,y,44.678,Infarct,media,3,Neglect,1,NegM
+69,F,DWI,72,o,31.161,Infarct,media,0,Control,0,ConF
+71,F,DWI,42,y,13.087,Infarct,media,3,Neglect,1,NegF
+72,F,DWI + T2FLAIR,39,y,49.126,Infarct,media,2,Neglect,0,NegF
+73,F,DWI + T2FLAIR,78,o,11.739,Infarct,media,2,Neglect,0,NegF
+74,M,T2FLAIR + T1,55,y,31.315,Infarct,media,0,Control,0,ConM
+75,F,T2FLAIR,72,o,47.779,Haemorrhage,xxx,0,Control,0,ConF
+79,M,T2FLAIR,75,o,4.795,Infarct,media,0,Control,0,ConM
+80,F,T2FLAIR,75,o,12.164,Infarct,anterior,0,Control,0,ConF
+88,M,DWI + T2FLAIR,29,y,152.995,Infarct,media,3,Neglect,1,NegM
+89,M,T2FLAIR,64,y,75.745,Infarct,media,3,Neglect,1,NegM
+91,F,DWI + T1,27,y,41.477,Infarct,media,1,Control,0,ConF
+94,M,T2FLAIR,54,y,138.137,Infarct,media,1,Control,0,ConM
+95,M,T2FLAIR,53,y,43.695,Infarct,media,2,Neglect,0,NegM
+99,M,DWI,56,y,62.267,Infarct,media,1,Control,0,ConM
+110,F,DWI + T1,73,o,3.844,Infarct,media,0,Control,0,ConF
+111,M,CT,69,o,2.894,Infarct,media,0,Control,0,ConM
+112,M,CT,50,y,13.689,Infarct,media,0,Control,0,ConM
+114,F,CT,63,y,35.011,Infarct,media,2,Neglect,0,NegF
+115,M,CT,50,y,133.478,Infarct,media,3,Neglect,1,NegM
+117,F,CT,75,o,2.854,Infarct,BG,0,Control,0,ConF
+118,F,CT,72,o,59.639,Infarct,posterior,0,Control,0,ConF
+119,M,CT,81,o,21.857,Haemorrhage,xxx,3,Neglect,1,NegM
+120,M,CT,76,o,3.326,Infarct,media,2,Neglect,0,NegM
+121,M,CT,72,o,5.62,Infarct,media,1,Control,0,ConM
+122,F,T2FLAIR + T1,38,y,34.602,Infarct,media,0,Control,0,ConF
+123,M,T2FLAIR + T1,74,o,77.938,Haemorrhage,xxx,2,Neglect,0,NegM
+124,M,CT,72,o,193.296,Infarct,media,3,Neglect,1,NegM
+125,F,T2FLAIR,26,y,8.957,Haemorrhage,xxx,0,Control,0,ConF
+126,M,CT,79,o,26.892,Infarct,media,1,Control,0,ConM
+132,M,CT,54,y,38.783,Infarct,media,1,Control,0,ConM
+134,M,DWI + FLAIR,69,o,34.069,Infarct,media,0,Control,0,ConM
+137,M,T2FLAIR,77,o,0.312,Infarct,media,0,Control,0,ConM
+142,M,DWI + T1,67,o,53.138,Infarct,media,2,Neglect,0,NegM
+149,M,T2FLAIR,69,o,2.721,Infarct,media,0,Control,0,ConM
+170,M,T2,63,y,70.757,Infarct,media,0,Control,0,ConM
+181,M,T2FLAIR,66,o,0.309,Infarct,media,0,Control,0,ConM
+184,M,DWI + T2FLAIR,68,o,0.62,Infarct,media,0,Control,0,ConM
+204,M,T2FLAIR + T1,36,y,44.848,Haemorrhage,xxx,0,Control,0,ConM
+227,M,T2FLAIR,33,y,105.455,Infarct,media,3,Neglect,1,NegM
+295,F,CT,79,o,TBD,Infarct,media,2,Neglect,0,NegF
+296,F,CT,85,o,TBD,Infarct,anterior,2,Neglect,0,NegF
+300,F,DWI + T2FLAIR,48,y,8.557,Infarct,media,0,Control,0,ConF
+301,F,CT,71,o,1.317,Infarct,media,0,Control,0,ConF
+302,M,DWI,44,y,0.776,Infarct,media,0,Control,0,ConM
+303,F,DWI + T1,38,y,45.813,Infarct,anterior/media,0,Control,0,ConF
+304,M,T2FLAIR,79,o,14.671,Haemorrhage,xxx,0,Control,0,ConM
+305,M,T2FLAIR,41,y,6.458,Infarct,posterior,0,Control,0,ConM
+306,M,DWI + T1,46,y,3.495,Infarct,media,0,Control,0,ConM
+313,M,CT,70,o,78.767,Infarct,media,3,Neglect,1,NegM
+314,F,CT,70,o,16.494,Haemorrhage,xxx,3,Neglect,1,NegF
+316,M,DWI + T2FLAIR,65,y,1.962,Infarct,media,0,Control,0,ConM
+317,M,T2FLAIR,36,y,2.296,Infarct,media,0,Control,0,ConM
+318,M,DWI,45,y,0.618,Infarct,media,0,Control,0,ConM
+319,M,T2FLAIR,43,y,59.687,Haemorrhage,xxx,0,Control,0,ConM
+321,F,T2FLAIR,68,o,TBD,Haemorrhage,xxx,3,Neglect,1,NegF
+322,M,T2FLAIR + T1,49,y,1.685,Infarct,media,0,Control,0,ConM
+323,F,CT,72,o,TBD,Infarct,[NA],0,Control,0,ConF
+324,M,DWI + T2FLAIR,51,y,0.091,Infarct,xxx,0,Control,0,ConM
+325,F,CT,54,y,TBD,Haemorrhage,xxx,2,Neglect,0,NegF
+326,M,DWI + T1,56,y,5.289,Infarct,media,0,Control,0,ConM
+333,F,CT,41,y,TBD,Infarct,media,2,Neglect,0,NegF
+334,F,DWI + T2FLAIR,68,o,0.426,Infarct,thalamus,0,Control,0,ConF
+335,F,T2FLAIR,82,o,6.102,Infarct,media,2,Neglect,0,NegF
+336,M,DWI,68,o,0.81,Infarct,media,0,Control,0,ConM
+338,M,CT,65,y,2.843,Infarct,media,0,Control,0,ConM
+341,M,DWI + T1,55,y,23.368,Infarct,posterior,0,Control,0,ConM
+342,M,CT,70,o,5.761,Infarct,posterior,0,Control,0,ConM
+343,M,CT,44,y,41.934,Infarct,media,0,Control,0,ConM
+345,F,T2FLAIR,52,y,8.446,Infarct,media,0,Control,0,ConF
+347,F,CT,64,y,45.464,Infarct,media,1,Control,0,ConF
+353,F,CT,72,o,19.367,Infarct,posterior,0,Control,0,ConF
+356,F,CT,45,y,74.494,Haemorrhage,xxx,3,Neglect,1,NegF
+357,M,CT,59,y,13.202,Infarct,posterior,0,Control,0,ConM
+358,M,CT,59,y,24.837,Infarct,media,0,Control,0,ConM
+359,F,CT,63,y,31.164,Infarct,media,2,Neglect,0,NegF
+362,M,CT,66,o,2.854,Haemorrhage,xxx,0,Control,0,ConM
+366,F,CT,63,y,22.499,Infarct + Haemorrhage,media,2,Neglect,0,NegF
+367,M,CT,73,o,82.64,Infarct,posterior,1,Control,0,ConM
+368,F,CT,46,y,0.5,Infarct,media,0,Control,0,ConF
+369,F,CT,66,o,8.004,Infarct,media,1,Control,0,ConF
+370,M,CT,81,o,17.224,Infarct,posterior,0,Control,0,ConM
+373,F,DWI + T1,42,y,17.224,Infarct,media,0,Control,0,ConF
+374,F,DWI + T1,40,y,6.4,Infarct,media,0,Control,0,ConF
+375,M,DWI + T2FLAIR,65,y,25.165,Infarct,media,1,Control,0,ConM
+376,F,T2FLAIR,29,y,35.282,Infarct,media,0,Control,0,ConF
+377,F,T2FLAIR,58,y,4.043,Infarct,media,0,Control,0,ConF
+379,M,T2FLAIR,68,o,30.608,Infarct,media,0,Control,0,ConM
+380,F,T2FLAIR,38,y,30.306,Infarct,media,0,Control,0,ConF
+381,M,T2FLAIR,53,y,49.836,Infarct,media,0,Control,0,ConM
+384,F,T2FLAIR,61,y,14.177,Haemorrhage,xxx,0,Control,0,ConF
+387,F,T2FLAIR,52,y,69.081,Infarct,media,0,Control,0,ConF
+388,F,DWI + T2FLAIR,32,y,52.371,Infarct,media,0,Control,0,ConF
+389,M,DWI + T2FLAIR,42,y,23.312,Infarct,media,0,Control,0,ConM
+390,M,DWI + T2FLAIR,71,o,TBD,Infarct,media,0,Control,0,ConM
+391,F,T2FLAIR,56,y,24.773,Infarct,media,2,Neglect,0,NegF
+392,M,DWI + T2FLAIR,74,o,143.654,Infarct,media,3,Neglect,1,NegM
+394,F,DWI + T2FLAIR,65,y,10.99,Haemorrhage,xxx,0,Control,0,ConF
+395,M,CT,49,y,88.007,Infarct,media,2,Neglect,0,NegM
+396,M,CT,69,o,91.553,Infarct,media,2,Neglect,0,NegM
+398,M,DWI,52,y,0.219,Infarct,media,0,Control,0,ConM
+399,M,T2FLAIR,60,y,1.658,Infarct,media,0,Control,0,ConM
+401,M,DWI + T2FLAIR,60,y,0.387,Infarct,media,0,Control,0,ConM
+405,M,CT,67,o,22.662,Infarct,media,0,Control,0,ConM
+407,M,CT,74,o,38.065,Infarct,media,0,Control,0,ConM
+412,F,DWI,53,y,0.495,Infarct,media,0,Control,0,ConF
+413,M,DWI,61,y,4.681,Infarct,media,0,Control,0,ConM
+415,M,CT,59,y,5.08,Infarct,media,0,Control,0,ConM
+417,F,DWI,62,y,15.956,Infarct,media,0,Control,0,ConF
+418,M,T2FLAIR,65,y,24.241,Infarct,media,0,Control,0,ConM
+419,F,T2FLAIR,79,o,14.23,Infarct,media,3,Neglect,1,NegF
+420,F,CT,71,o,11.994,Infarct,media,0,Control,0,ConF
+421,M,CT,76,o,20.166,Haemorrhage,xxx,0,Control,0,ConM
+422,M,T2FLAIR,80,o,2.651,Infarct,media,0,Control,0,ConM
+423,M,CT,58,y,2.349,Infarct,media,1,Control,0,ConM
+430,F,T2FLAIR,63,y,7.235,Infarct,anterior/media,2,Neglect,0,NegF
+431,M,DWI,62,y,0.372,Infarct,[NA],3,Neglect,1,NegM
+433,M,T2FLAIR,51,y,76.431,Haemorrhage,xxx,1,Control,0,ConM
+434,M,DWI,46,y,2.705,Infarct,anterior/media,0,Control,0,ConM
+435,F,T2FLAIR,67,o,187.652,Infarct,media,3,Neglect,1,NegF
+436,M,T2FLAIR,41,y,11.481,Infarct,media,0,Control,0,ConM
+437,M,T2FLAIR,47,y,23.128,Infarct,posterior,0,Control,0,ConM
+438,M,T2FLAIR,55,y,31.236,Infarct,media,0,Control,0,ConM
+439,F,T2FLAIR,42,y,42.812,Infarct,media,2,Neglect,0,NegF
+440,M,DWI,74,o,32.759,Infarct,media,2,Neglect,0,NegM
+441,M,T2FLAIR,52,y,90.087,Infarct,media,2,Neglect,0,NegM
+442,M,T2FLAIR,53,y,66.978,Infarct,media,3,Neglect,1,NegM
+443,F,DWI + T2FLAIR,80,o,1.523,Infarct,[NA],0,Control,0,ConF
+447,F,T2FLAIR,49,y,26.591,Infarct,media,0,Control,0,ConF
+451,M,DWI + T1,61,y,0.497,Infarct,media,0,Control,0,ConM
+452,M,DWI + T1,49,y,4.174,Infarct,media,0,Control,0,ConM
+453,M,CT,56,y,5.471,Infarct,media,2,Neglect,0,NegM
+454,M,T2FLAIR,49,y,22.913,Infarct,media,0,Control,0,ConM
+455,F,CT,82,o,19.76,Infarct,media,0,Control,0,ConF
+470,F,T2FLAIR,77,o,33.617,Infarct,media,0,Control,0,ConF
+471,M,CT,71,o,51.6,Infarct,posterior,3,Neglect,1,NegM
+472,M,CT,67,o,73.184,Infarct + Haemorrhage,posterior,2,Neglect,0,NegM
+473,M,CT,71,o,30.022,Infarct,posterior,2,Neglect,0,NegM
+474,F,CT,80,o,38.849,Infarct,posterior,2,Neglect,0,NegF
+475,F,DWI + T2FLAIR,73,o,39.972,Infarct,posterior,2,Neglect,0,NegF
+476,M,CT,45,y,7.049,Haemorrhage,xxx,0,Control,0,ConM
+477,F,CT,57,y,2.149,Haemorrhage,xxx,1,Control,0,ConF
+478,M,DWI + T1,61,y,11.137,Infarct,posterior,0,Control,0,ConM
+479,F,CT,80,o,8.532,Haemorrhage,xxx,0,Control,0,ConF
+480,F,CT,61,y,45.798,Haemorrhage,xxx,0,Control,0,ConF
+481,M,CT,46,y,2.156,Infarct,BG,0,Control,0,ConM
+482,M,CT,67,o,20.619,Infarct,anterior/media,0,Control,0,ConM
+483,F,CT,71,o,7.557,Infarct,media,0,Control,0,ConF
+484,F,CT,75,o,64.499,Infarct,posterior,0,Control,0,ConF
+485,M,DWI + T1,71,o,16.582,Infarct,media,1,Control,0,ConM
+486,M,T2FLAIR,62,y,0.084,Infarct,thalamus,0,Control,0,ConM
+487,F,DWI + T1,72,o,1.254,Infarct,media,0,Control,0,ConF
+490,M,T2FLAIR,71,o,28.4,Infarct,media,1,Control,0,ConM
+491,F,CT,75,o,60.604,Infarct,media,2,Neglect,0,NegF
+492,M,CT,81,o,6.713,Infarct,media,0,Control,0,ConM
+493,F,CT,61,y,100.182,Infarct + Haemorrhage,media,3,Neglect,1,NegF
+494,F,CT,73,o,37.878,Infarct,BG,0,Control,0,ConF
+495,F,DWI,75,o,1.474,Infarct,media,1,Control,0,ConF
+496,F,CT,80,o,106.054,Infarct,media,2,Neglect,0,NegF
+497,M,CT,71,o,56.623,Infarct,media,2,Neglect,0,NegM
+498,M,DWI,77,o,0.084,Infarct,thalamus,0,Control,0,ConM
+500,F,CT,75,o,10.894,Haemorrhage,(thalamus),0,Control,0,ConF
+502,M,CT,57,y,8.81,Infarct,media,1,Control,0,ConM
+503,M,CT,76,o,15.728,Infarct,media,0,Control,0,ConM
+504,M,DWI,63,y,38.623,Infarct,anterior/media,0,Control,0,ConM
+505,M,DWI + T1,54,y,1.064,Infarct,thalamus,0,Control,0,ConM
+507,F,DWI,68,o,24.934,Infarct,media,2,Neglect,0,NegF
+510,M,CT,75,o,23.23,Infarct,media/BG,0,Control,0,ConM
+511,F,CT,76,o,TBD,Infarct,BG,2,Neglect,0,NegF
+515,F,CT,69,o,TBD,Infarct,anterior/media,2,Neglect,0,NegF
+517,F,CT,80,o,TBD,Infarct,BG,2,Neglect,0,NegF
+530,F,CT,88,o,TBD,Haemorrhage,ICB,3,Neglect,1,NegF
+531,F,CT,79,o,TBD,Infarct,media,3,Neglect,1,NegF
+532,F,MR,81,o,TBD,Infarct,media,1,Control,0,ConF
+537,F,CT,84,o,TBD,Haemorrhage,xxx,3,Neglect,1,NegF
+541,F,CT,76,o,TBD,Infarct,media,0,Control,0,ConF
+542,F,T2FLAIR,34,y,66.518,Infarct,media,3,Neglect,1,NegF
+544,F,T2FLAIR,69,o,TBD,Haemorrhage,xxx,0,Control,0,ConF
+545,F,CT,88,o,5.067,Infarct,media,0,Control,0,ConF
+548,F,CT,76,o,4.17,Haemorrhage,xxx,0,Control,0,ConF
+549,F,CT,76,o,19.389,Infarct,media,0,Control,0,ConF
+551,F,MR + KM,61,y,TBD,Haemorrhage,xxx,3,Neglect,1,NegF
