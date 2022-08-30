@@ -18,6 +18,16 @@ General
 
 64, 32 -> -8, -40
 
+More Discon F>M
+
+inferior longitudinal fasciculus: 55, 127 -> -36, 36
+inferior occipitofrontal fasciculus: 85 -> 13
+
+
+More Discon M>F
+
+CC (sagittal): 96, 91 / 75, 91 -> -16, 0
+CC (axial): 77 -> 5
 
 Outdated NiiStat
 130,125,120,115,110,105,100,95,90
