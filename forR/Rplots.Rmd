@@ -1,0 +1,112 @@
+---
+title: "MAplots"
+author: "Tamara Keßler"
+date: '2022-09-13'
+output: html_document
+---
+
+```{r supress warnings, echo=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE, # supress warnings per default 
+  message = FALSE  # supress messages per default 
+)
+```
+
+```{r clear workspace, echo=FALSE}
+rm(list = ls())
+```
+
+```{r libraries, echo=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(RColorBrewer)
+#library(readbulk)
+#library(cowplot)
+```
+
+```{r ggplot theme, echo=FALSE}
+theme_set(theme_minimal() +
+  theme(
+    axis.line = element_line(colour = "black"),
+    axis.ticks = element_line(colour = "black"),
+    axis.text = element_text(colour = "black"),
+    panel.border = element_rect(colour = "black", fill=NA)
+  ))
+
+options(width=90, scipen = 999)
+```
+
+```{r read data, echo=FALSE}
+
+#behav <- read_csv2('C:/Users/tamar/Desktop/mscthesis/mscthesis/behavtidy.csv')
+NvsC <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/Discon_NvsCtidy.csv')
+
+```
+
+```{r plot behav}
+
+behav %>%
+  ggplot(
+    aes(
+      x = Test, 
+      y = BehavScore,
+      color = Group,
+      fill = Group
+    )
+  ) + geom_boxplot(alpha = 0.5) +
+  scale_color_manual(
+    values = c("palegreen3","orange","darkgreen","darkorange2")
+  ) + scale_fill_manual(
+    values = c("palegreen3","orange","darkgreen","darkorange2")
+  )
+
+```
+
+```{r plot performance}
+
+NvsC %>%
+  ggplot(
+    aes(
+      x = Correct,
+      y = 1,
+      color = Label,
+      fill = Label
+    )
+  ) + geom_jitter(
+    width = 0.2,
+    size = 3,
+    alpha = 0.6
+  ) +
+  scale_x_discrete(
+    labels = c("steelblue","Non-Neglect")
+  ) + scale_color_manual(
+    values = c("steelblue", "darkred")
+  )
+
+# NvsC %>%
+#   ggplot(
+#     aes(
+#       x = Predict,
+#       color = Label,
+#       fill = Label
+#     )
+#   ) + geom_bar(
+#    position = "dodge"
+#   ) + scale_x_continuous(
+#     breaks = 1:2,
+#     labels = c("Neglect", "Non-Neglect")
+#   )+ labs(
+#     x = "Predicted Label"
+#   ) + scale_fill_manual(
+#     values = c("steelblue", "darkred")
+#   ) + scale_color_manual(
+#     values = c("steelblue", "darkred")
+#   )
+```
+
+```{r sumstats acc}
+
+sum <- t
+
+
+```
