@@ -20,8 +20,7 @@ rm(list = ls())
 library(tidyverse)
 library(ggplot2)
 library(RColorBrewer)
-#library(readbulk)
-#library(cowplot)
+library(cowplot)
 ```
 
 ```{r ggplot theme, echo=FALSE}
@@ -40,6 +39,7 @@ options(width=90, scipen = 999)
 
 #behav <- read_csv2('C:/Users/tamar/Desktop/mscthesis/mscthesis/behavtidy.csv')
 NvsC <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/Discon_NvsCtidy.csv')
+ModelAcc <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/PrecisionAllModels.csv')
 
 ```
 
@@ -106,7 +106,100 @@ NvsC %>%
 
 ```{r sumstats acc}
 
-sum <- t
+twoclass <- ModelAcc %>%
+  filter(
+    Classification != "Four"
+  ) %>% group_by(
+    Map, Classification
+  ) %>% summarise(
+    ModelMean = mean(ModelPrecision)
+  ) %>% ggplot(
+    aes(
+      x = Classification,
+      y = ModelMean,
+      color = Map,
+      fill = Map
+    )
+  ) + geom_col(
+    position = "dodge"
+  ) + geom_hline(
+    yintercept = 50,
+    linetype = "dashed"
+  ) + theme(legend.position='none') +
+  ylim(0,100) +
+  scale_color_manual(
+    values = c("steelblue", "darkorange")
+  ) +
+  scale_fill_manual(
+    values = c("steelblue", "darkorange")
+  ) + labs(
+    y = "Prediction Accuracy (%)",
+    x = ""
+  )
+
+fourclass <- ModelAcc %>%
+  filter(
+    Classification == "Four"
+  ) %>% group_by(
+    Map, Classification
+  ) %>% summarise(
+    ModelMean = mean(ModelPrecision)
+  ) %>% ggplot(
+    aes(
+      x = Classification,
+      y = ModelMean,
+      color = Map,
+      fill = Map
+    )
+  ) + geom_col(
+    position = "dodge"
+  ) + geom_hline(
+    yintercept = 25, 
+    linetype = "dashed"
+  ) + ylim(0,100) +
+  labs(
+    y = "",
+    x = "",
+    color = "Model",
+    fill = "Model"
+  ) +
+  scale_color_manual(
+    values = c("steelblue", "darkorange")
+  ) +
+  scale_fill_manual(
+    values = c("steelblue", "darkorange")
+  ) 
+
+plot_grid(twoclass, fourclass)
+
+```
+
+```{r acc notsplit}
+
+# ModelAcc %>%
+#   group_by(
+#     Map, Classification
+#   ) %>% summarise(
+#     ModelMean = mean(ModelPrecision)
+#   ) %>% ggplot(
+#     aes(
+#       x = Classification,
+#       y = ModelMean,
+#       color = Map,
+#       fill = Map
+#     )
+#   ) + geom_col(
+#     position = "dodge"
+#   ) + geom_hline(
+#     yintercept = 50,
+#     linetype = "dashed", 
+#     color = "black"
+#   ) + geom_hline(
+#     yintercept = 25,
+#     linetype = "dotted", 
+#     color = "black"
+#   ) + theme(legend.position='none') +
+#   ylim(0,100)
 
 
 ```
