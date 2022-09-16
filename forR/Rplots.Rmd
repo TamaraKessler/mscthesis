@@ -38,8 +38,9 @@ options(width=90, scipen = 999)
 ```{r read data, echo=FALSE}
 
 #behav <- read_csv2('C:/Users/tamar/Desktop/mscthesis/mscthesis/behavtidy.csv')
-NvsC <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/Discon_NvsCtidy.csv')
-ModelAcc <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/PrecisionAllModels.csv')
+#NvsC <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/Discon_NvsCtidy.csv')
+#ModelAcc <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/PrecisionAllModels.csv')
+ModelAcc <- read_csv('C:/Users/tamar/Desktop/mscthesis/mscthesis/forR/PrecisionAllModels.csv')
 
 ```
 
