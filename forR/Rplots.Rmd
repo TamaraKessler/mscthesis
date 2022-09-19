@@ -40,7 +40,8 @@ options(width=90, scipen = 999)
 #behav <- read_csv2('C:/Users/tamar/Desktop/mscthesis/mscthesis/behavtidy.csv')
 #NvsC <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/Discon_NvsCtidy.csv')
 #ModelAcc <- read_csv('C:/Users/Sperber/Desktop/mscthesis/forR/PrecisionAllModels.csv')
-ModelAcc <- read_csv('C:/Users/tamar/Desktop/mscthesis/mscthesis/forR/PrecisionAllModels.csv')
+#ModelAcc <- read_csv('C:/Users/tamar/Desktop/mscthesis/mscthesis/forR/PrecisionAllModels.csv')
+sspls = read_csv('D:/Tamara/Diskonnektionen/SSPLs/tidymaxSSPLs.csv')
 
 ```
 
@@ -59,6 +60,132 @@ behav %>%
     values = c("palegreen3","orange","darkgreen","darkorange2")
   ) + scale_fill_manual(
     values = c("palegreen3","orange","darkgreen","darkorange2")
+  )
+
+```
+
+```{r histo SSPLs}
+
+meanF <- sspls %>%
+  filter(Sex == "F") %>%
+  pull(MaxSSPL) %>%
+  mean
+
+meanM <- sspls %>%
+  filter(Sex == "M") %>%
+  pull(MaxSSPL) %>%
+  mean
+
+sspls %>%
+  group_by(Sex) %>%
+  ggplot(
+    aes(
+      x = MaxSSPL,
+      color = Sex,
+      fill = Sex
+    )
+  ) + geom_bar(
+    position = "dodge"
+  ) + scale_color_manual(
+    values = c("darkgreen", "darkorange2")
+  ) + scale_fill_manual(
+    values = c("darkgreen", "darkorange2")
+  ) + geom_vline(
+    xintercept = meanF,
+    linetype = "dashed",
+    color = "darkorange3"
+  ) + annotate(
+    "text", 
+    x = meanF - 0.1, 
+    y = 60,
+    label = "mean(Female)", 
+    angle = 90,
+    size = 3
+  ) + geom_vline(
+    xintercept = meanM,
+    linetype = "dashed",
+    color = "darkgreen"
+  ) + annotate(
+    "text", 
+    x = meanM - 0.1, 
+    y = 60,
+    label = "mean(Male)", 
+    angle = 90,
+    size = 3
+  ) + labs(
+    x = "Max Value of SSPL Increase",
+    y = "n"
+  )
+
+
+```
+
+```{r distribution boxplot SSPL}
+
+sspls %>%
+  ggplot(
+    aes(
+      x = Sex, 
+      y = MaxSSPL,
+      color = Sex,
+      fill = Sex
+    )
+  ) + geom_violin(alpha = 0.5) +
+  scale_color_manual(
+    values = c("darkgreen","darkorange2")
+  ) + scale_fill_manual(
+    values = c("darkgreen","darkorange2")
+  ) + geom_hline(
+    yintercept = meanF,
+    linetype = "dashed",
+    color = "darkgreen"
+  ) + geom_hline(
+    yintercept = meanM,
+    linetype = "dashed",
+    color = "darkorange2"
+  ) + geom_jitter(
+    alpha = 0.3,
+    width = 0.2
+  )
+  
+
+sspls %>%
+  ggplot(
+    aes(
+      x = MaxSSPL,
+      color = Sex,
+      fill = Sex
+    )
+  ) + geom_density(alpha = 0.5) +
+  scale_color_manual(
+    values = c("darkgreen","darkorange2")
+  ) + scale_fill_manual(
+    values = c("darkgreen","darkorange2")
+  ) + geom_vline(
+    xintercept = meanF,
+    linetype = "dashed",
+    color = "darkorange3"
+  ) + annotate(
+    "text", 
+    x = meanF - 0.1, 
+    y = 0.7,
+    label = "mean(Female)", 
+    angle = 90,
+    size = 3
+  ) + geom_vline(
+    xintercept = meanM,
+    linetype = "dashed",
+    color = "darkgreen"
+  ) + annotate(
+    "text", 
+    x = meanM - 0.1, 
+    y = 0.7,
+    label = "mean(Male)", 
+    angle = 90,
+    size = 3
+  ) + labs(
+    x = "Max Value of SSPL Increase",
+    y = "n"
   )
 
 ```
