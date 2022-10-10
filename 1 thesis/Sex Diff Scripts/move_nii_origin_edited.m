@@ -1,7 +1,15 @@
-% this script moves our images from the 181x217x181 space used in our group
+%% ********************** MOVE NII ORIGIN FOR LQT ************************ %%
+% 
+% Written by Tamara Keßler, 06/2022
+%
+%%
+
+% This script moves our images from the 181x217x181 space used in our group
 % to 182x218x182 space for the Lesion Quantification Toolkit
-clear
-clc
+
+%% Set up
+
+clear; clc;
 
 % Pre-Allocate some memory
 orig  = struct;
@@ -10,11 +18,12 @@ path  = struct;
 path.main = uigetdir('D:\Tamara\LesionMaps\Originals\masked', 'Choose input folder');
 path.out  = uigetdir('D:\Tamara\LesionMaps\Shifted', 'Choose output folder');
 
-%fileList = struct2cell(dir(fullfile(path.main, '*.nii')));
 fileList = dir(fullfile(path.main, '*.nii'));
 
 % Get number of scans
 n_scans = size(fileList,1);
+
+%%
 
 fprintf('++++++++++++++++++++++++\n');
 

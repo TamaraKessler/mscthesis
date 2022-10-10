@@ -1,3 +1,17 @@
+%% ********************** Concatenate Nii Files ********************* %%
+% 
+% Written by Tamara Keßler, 05/2022
+%
+%%
+
+% If a patient's anatomical scans have been fragmented for some reason
+% - meaning their full brain scan is split into 2-3 different
+% NII files: Use this script to combine them into a single NII
+
+%% Set up
+
+clear; clc;
+
 % Pre-Allocate some memory
 path = struct;
 base = struct;
@@ -13,6 +27,8 @@ path.out  = 'D:\Tamara\Scans\add\added';
 pnum = [292 295 296 323 333];
 % Transform for easier handling
 pnum = pnum';
+
+%%
 
 % For every patient whose maps need to be added
 for i_pat = 1:length(pnum)

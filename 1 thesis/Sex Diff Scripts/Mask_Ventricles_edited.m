@@ -31,7 +31,7 @@ end
 fprintf('Apply Mask on Selected Lesion Maps....\n');
 
 % Number of files
-n = length(lesions);
+n = size(lesions,1);
 
 % Load mask file
 hdr_mask = spm_vol(mask);    

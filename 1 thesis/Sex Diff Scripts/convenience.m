@@ -1,3 +1,15 @@
+%% ************************ MOVE/RENAME FILES ************************** %%
+% 
+% Written by Tamara Keßler, 06/2022
+%
+%%
+
+% For convience, move every patient's disconnection map matfiles into the
+% same folder
+
+%% Set up
+
+clear; clc;
 
 % Set working directory
 wkdir = "D:\Tamara";
@@ -26,16 +38,16 @@ infolder = dir([path.infolder, '\*', ft.list{ft.idx}]);
 n_pat = size(infolder,1);
 
 %% Get user input: Get patient list
-
-prompt.groupfile = "In the next step, please select the .txt file containing relevant patient numbers";
-f = msgbox(prompt.groupfile); pause;
-[filename.patnum, path.patnum] = uigetfile('*.txt');
-
-patnums = importdata(fullfile(path.patnum, filename.patnum));
-
-if n_pat ~= size(patnums,1)
-    error("Number of files doesn't match provided list of patients");
-end
+% 
+% prompt.groupfile = "In the next step, please select the .txt file containing relevant patient numbers";
+% f = msgbox(prompt.groupfile); 
+% [filename.patnum, path.patnum] = uigetfile('*.txt');
+% 
+% patnums = importdata(fullfile(path.patnum, filename.patnum));
+% 
+% if n_pat ~= size(patnums,1)
+%     error("Number of files doesn't match provided list of patients");
+% end
 
 %% Perform selected task
 

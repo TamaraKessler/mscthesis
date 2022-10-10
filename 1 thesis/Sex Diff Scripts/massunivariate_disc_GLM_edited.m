@@ -31,13 +31,13 @@ f = waitbar(0,'Loading Data'); % this initialises a bar that depicts the progres
 % resolution of p-values provided by the permutation (e.g. mapping results
 % at p<0.0001 while having only 1000 permutations is non-sense, as the
 % lowest possible p-values are 0.001 and 0)
-perms =500;
+perms =50000;
 
 % choose the 1-p statistical threshold (p < 0.05 would be 0.95)
 stat_threshold = 0.95;
 
 % read behavioural data
-behaviour =  xlsread('D:\Tamara\DisconnectionMaps\Parcel_Disconnection\renamed\all_behavioural_discon.xlsx');
+behaviour =  xlsread('D:\Tamara\DisconnectionMaps\Parcel_Disconnection\all\renamed\all_behavioural_discon_neg.xlsx');
 % this line just reads the number from the xls. If future matlab version
 % should change anything with the xlsread or if you have any issues: just
 % make sure that 'behaviour' is a n-by-1 vector that contains the
@@ -49,8 +49,11 @@ behaviour =  xlsread('D:\Tamara\DisconnectionMaps\Parcel_Disconnection\renamed\a
 % IMPORTANT: to simplify the scripting, it is assumed that the
 % behavioural scores are in the same order as the disconnection files
 
+% Set default stream for pseudorandomisation
+defaultStream = RandStream('mlfg6331_64');
+
 %% read imaging data
-folder = 'D:\Tamara\DisconnectionMaps\Parcel_Disconnection\renamed'; % this folder contains all relevant disconnection .mat files and NO other .mat files
+folder = 'D:\Tamara\DisconnectionMaps\Parcel_Disconnection\all\renamed\'; % this folder contains all relevant disconnection .mat files and NO other .mat files
 fileList = struct2cell(dir(fullfile(folder, '*.mat')));
 % short check: mat-files need to be in the same order as in the
 % behavioural file; ideally, double check this here!
@@ -123,7 +126,14 @@ stat_vect_perm_temp=zeros(sum(mask(:)),1);
 
 for j=1:perms
     waitbar(j/perms,f,'Doing GLM permutations');
-    rand_behaviour=behaviour(randperm(length(behaviour))); % permute behavioural data
+    
+    % Pseudorandomisation
+    defaultStream.Substream = j;
+    rand_behaviour=behaviour(randperm(defaultStream,length(behaviour)));
+    
+    % Randomisation
+    %rand_behaviour=behaviour(randperm(length(behaviour))); % permute behavioural data
+    
     for i=1:length(stat_vect_orig)
         [b,dev,stats]=glmfit(images_vect(:,i),rand_behaviour);
         stat_vect_perm_temp(i)=-(stats.t(2)); % the minus sign changes the direction, see comment above on polarity
@@ -202,6 +212,8 @@ results.fdr_controlled_binary=results_2d_fdr; % this binarily shows all matrix c
 
 savename = strcat('results_disconn_map_GLM_',num2str(start_time(1)), '_' , num2str(start_time(2)), '_' , num2str(start_time(3)), '_' , num2str(start_time(4)), '_' , num2str(start_time(5)));
 save(savename,'results');
+
+dlmwrite([savename '.edge'], results.resulting_statistics_binary, 'delimiter', '\t', 'precision', 4);
 
 % close the waitbar
 close(f)

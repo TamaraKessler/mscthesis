@@ -64,7 +64,7 @@ get_lesion_size
 % Use this script to change the origin of every patient's lesion map
 % from [-90, -126, -72] to [-90, -125, -71]
 
-FixOrigin_nii
+FixOrigin_nii_edited
 
 %% Mask Ventricles
 
@@ -73,9 +73,39 @@ FixOrigin_nii
 
 Mask_Ventricles_edited
 
+%% Prep for NiiStat
+
+convenience
+rename_files_4niistat
+
+%% [NiiStat]
+
 %% Move Origin for LQT
 
 % Use this toolbox to change the lesion maps' dimensions from (181x217x181)
 % to (182x218x182), which is required for the Lesion Quantification Toolbox
 
 move_nii_origin_edited
+
+
+%% [LQT]
+
+%% Check LQT results before further steps
+
+sanity_check
+
+%% Create Visualisations
+
+% (Create mat files of the Disconnection Maps using nii_nii2mat)
+move_matfiles
+create_overlays_and_average_disconnections
+
+%% Prep for ROI-to-ROI GLM
+
+move_disconnectionmaps
+adjust_pnums
+
+%% ROI-to-ROI GLM
+
+massunivariate_disc_GLM_edited_morePs
+eval_parcel_disconns

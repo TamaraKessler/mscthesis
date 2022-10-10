@@ -1,3 +1,17 @@
+%% ************************* ADD LESION MAPS *************************** %%
+% 
+% Written by Tamara Keßler, 05/2022
+%
+%%
+
+% If patient suffered an infarct, as well as a haemorrhage and
+% now exhibits hypo- & hyperdense regions: Use this script to
+% combine them into a single lesion map, while controlling for overlaps
+
+%% Set up
+
+clear; clc;
+
 % Pre-Allocate some memory
 path  = struct;
 hyper = struct;
@@ -13,6 +27,8 @@ path.out  = 'D:\Tamara\LesionMaps\to be added\added';
 pnum = [493];
 % Transform for easier handling
 pnum = pnum';
+
+%%
 
 % For every patient whose maps need to be added
 for i_pat = 1:length(pnum)

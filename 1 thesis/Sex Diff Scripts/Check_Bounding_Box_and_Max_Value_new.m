@@ -1,6 +1,6 @@
 %% ****************  Check Bounding Box and Max Value ********************
 %-----------------------------------------------------------------------
-% Lisa Röhrig, 27-07-2020
+% Lisa Röhrig, 27-07-2020; adjusted by Tamara Keßler (06/2022)
 %-----------------------------------------------------------------------
 %
 % Controls for same bounding boxes of image sample and correct data type

@@ -1,6 +1,21 @@
+%% ************************* GET LESION SIZE *************************** %%
+% 
+% Written by Tamara Keßler, 05/2022
+%
+%%
+
+% This scripts calculates the lesion size in ccm based on the provided
+% binary lesion map (NII) and saves an xlsx file of the results
+
+%% Set up
+
+clear; clc;
+
 % Set paths
-path = 'D:\Tamara\LesionMaps\all';
-folder = dir([path '\*.nii']);
+path.infolder = 'D:\Tamara\LesionMaps\Originals\OG\all';
+folder = dir([path.infolder '\*.nii']);
+
+path.output = 'D:\Tamara\Data';
 
 % Count how many scans there are
 n_scans = size(folder,1);
@@ -8,12 +23,18 @@ n_scans = size(folder,1);
 % Pre-Allocate some memory
 lesion_ccm = zeros(n_scans,2);
 
+%%
+
+fprintf('Calculating...\n');
+
 % For every scan
 for i_scan = 1:n_scans 
 
-    % Load the nift file
+    fprintf('Currently at patient %d/%d\n',i_pat,n_pat);
+    
+    % Load the nifti file
     img_name = folder(i_scan).name;
-    fullpath = fullfile(path, img_name);
+    fullpath = fullfile(path.infolder, img_name);
     img = niftiread(fullpath);
     % Sum over lesion map to get lesion size in mm
     cmm = sum(img, 'all');
@@ -32,3 +53,8 @@ for i_scan = 1:n_scans
     clear img_name fullpath img cmm ccm RHLM tmp
 
 end % i_scan
+
+cd(path.output);
+xlswrite('lesionsize_all.xlsx', lesion_ccm);
+
+fprintf('Done.\n');

@@ -1,4 +1,6 @@
-path.lesions = 'D:\Tamara\LesionMaps\Shifted\all';
+clear; clc;
+
+path.lesions = 'D:\Tamara\LesionMaps\test_subset\shifted4LQT';
 path.data = 'D:\Tamara\Data\Patientlists_Groups';
 folder = dir([path.lesions, '\*.nii']);
 
