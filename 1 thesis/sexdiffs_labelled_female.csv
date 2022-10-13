@@ -1,0 +1,30 @@
+"2;SFG, Superior Frontal Gyrus (A8m, medial area 8)","66;PCL, Paracentral Lobule (A1/2/3ll, area1/2/3 (lower limb region))",1.74499650370545,5.58252427184466,2.79126213592233,F,intra
+"147;Pcun, Precuneus (A7m, medial area 7(PEp))","212;Amyg, Amygdala (mAmyg, medial amygdala)",1.83457189444559,31.5533980582524,20.873786407767,F,inter
+"153;Pcun, Precuneus (A31, area 31 (Lc1))","212;Amyg, Amygdala (mAmyg, medial amygdala)",1.87312612180957,33.0097087378641,21.3592233009709,F,inter
+"231;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","232;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)",2.68118657913926,4.85436893203883,0,F,inter
+"235;Tha, Thalamus (Stha, sensory thalamus)","236;Tha, Thalamus (Stha, sensory thalamus)",2.68142012180589,5.96393897364771,0,F,inter
+"232;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","237;Tha, Thalamus (rTtha, rostral temporal thalamus)",2.47565618193904,4.85436893203883,0,F,inter
+"232;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","239;Tha, Thalamus (PPtha, posterior parietal thalamus)",2.68118657913926,5.14451512108024,0,F,inter
+"236;Tha, Thalamus (Stha, sensory thalamus)","239;Tha, Thalamus (PPtha, posterior parietal thalamus)",2.68142012180589,6.33178556352892,0,F,inter
+"50;OrG, Orbital Gyrus (A13, area 13)","240;Tha, Thalamus (PPtha, posterior parietal thalamus)",1.80082911793029,36.8932038834951,25.2427184466019,F,intra
+"70;STG, Superior Temporal Gyrus (A38m, medial area 38)","240;Tha, Thalamus (PPtha, posterior parietal thalamus)",1.97547110112197,41.2621359223301,28.1553398058252,F,intra
+"152;Pcun, Precuneus (dmPOS, dorsomedial parietooccipital  sulcus(PEr))","240;Tha, Thalamus (PPtha, posterior parietal thalamus)",2.05481825570469,35.9223300970874,23.1796116504854,F,intra
+"231;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","240;Tha, Thalamus (PPtha, posterior parietal thalamus)",2.68161634481515,6.79611650485437,0,F,inter
+"232;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","241;Tha, Thalamus (Otha, occipital thalamus)",2.47575631566537,5.24271844660194,0,F,inter
+"136;IPL, Inferior Parietal Lobule (A39c, caudal area 39(PGp))","242;Tha, Thalamus (Otha, occipital thalamus)",1.9184241424735,31.0679611650485,19.4174757281553,F,intra
+"218;Hipp, Hippocampus (cHipp, caudal hippocampus)","242;Tha, Thalamus (Otha, occipital thalamus)",1.8515792064418,17.4757281553398,8.7378640776699,F,intra
+"150;Pcun, Precuneus (A5m, medial area 5(PEm))","244;Tha, Thalamus (cTtha, caudal temporal thalamus)",1.68702683789251,32.0388349514563,21.8446601941748,F,intra
+"200;LOcC, lateral Occipital Cortex (mOccG, middle occipital gyrus)","244;Tha, Thalamus (cTtha, caudal temporal thalamus)",1.86715928308728,34.3689320388349,23.6893203883495,F,intra
+"204;LOcC, lateral Occipital Cortex (OPC, occipital polar cortex)","244;Tha, Thalamus (cTtha, caudal temporal thalamus)",2.14018656549977,35.9223300970874,22.3300970873786,F,intra
+"208;LOcC, lateral Occipital Cortex (msOccG, medial superior occipital gyrus)","244;Tha, Thalamus (cTtha, caudal temporal thalamus)",1.9267572012437,36.4077669902913,23.3009708737864,F,intra
+"214;Amyg, Amygdala (lAmyg, lateral amygdala)","244;Tha, Thalamus (cTtha, caudal temporal thalamus)",1.88883285725048,30.0970873786408,18.9320388349515,F,intra
+"232;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","245;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.47575631566537,4.97572815533981,0,F,inter
+"236;Tha, Thalamus (Stha, sensory thalamus)","245;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.68142012180589,6.31067961165049,0,F,inter
+"240;Tha, Thalamus (PPtha, posterior parietal thalamus)","245;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.68142012180589,6.68824163969795,0,F,inter
+"78;STG, Superior Temporal Gyrus (A38l, lateral area 38)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.02675317097069,42.7184466019417,29.126213592233,F,intra
+"231;Tha, Thalamus (mPFtha, medial pre-frontal thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.68118657913926,5.47464940668824,0,F,inter
+"235;Tha, Thalamus (Stha, sensory thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.68127998888302,5.64320388349515,0,F,inter
+"237;Tha, Thalamus (rTtha, rostral temporal thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.25382293481261,4.85436893203883,0,F,inter
+"239;Tha, Thalamus (PPtha, posterior parietal thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.27852463816045,5.96763754045308,0.112189859762675,F,inter
+"241;Tha, Thalamus (Otha, occipital thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.68127998888302,5.8252427184466,0,F,inter
+"245;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)","246;Tha, Thalamus (lPFtha, lateral pre-frontal thalamus)",2.47575631566537,5.63733166301284,0,F,inter

@@ -1,0 +1,69 @@
+"2;SFG, Superior Frontal Gyrus (A8m, medial area 8)","5;SFG, Superior Frontal Gyrus (A9l, lateral area 9)",1.75405564395482,6.25958099131324,9.45324476239142,M,inter
+"4;SFG, Superior Frontal Gyrus (A8dl, dorsolateral area 8)","5;SFG, Superior Frontal Gyrus (A9l, lateral area 9)",2.06516702017898,5.8252427184466,14.5631067961165,M,inter
+"6;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","11;SFG, Superior Frontal Gyrus (A9m,medial area 9)",1.67417453799574,4.07105030891439,6.6747572815534,M,inter
+"5;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","14;SFG, Superior Frontal Gyrus (A10m, medial area 10)",1.91906934154193,2.51445401985382,2.77080833424239,M,inter
+"6;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","15;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)",1.78573780650708,2.28848821081831,8.29865926953306,M,inter
+"15;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)","16;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)",2.04436535071232,8.54368932038835,18.252427184466,M,inter
+"6;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","19;MFG, Middle Frontal Gyrus (A46, area 46)",1.75869442973803,2.41406454998688,7.18971398583049,M,inter
+"14;SFG, Superior Frontal Gyrus (A10m, medial area 10)","19;MFG, Middle Frontal Gyrus (A46, area 46)",1.71609037030219,2.75658807212205,5.47850208044383,M,inter
+"5;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","20;MFG, Middle Frontal Gyrus (A46, area 46)",2.06793036123746,2.66990291262136,8.31310679611651,M,inter
+"15;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)","20;MFG, Middle Frontal Gyrus (A46, area 46)",1.93729980243786,1.94174757281553,7.76699029126214,M,inter
+"19;MFG, Middle Frontal Gyrus (A46, area 46)","20;MFG, Middle Frontal Gyrus (A46, area 46)",2.26133257584297,3.88349514563107,10.9223300970874,M,inter
+"16;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)","23;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)",2.16445027492341,8.99335717935616,18.7020950434338,M,inter
+"15;MFG, Middle Frontal Gyrus (A9/46d, dorsal area 9/46)","24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)",1.80799581182787,8.7378640776699,18.3252427184466,M,inter
+"23;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)",1.84371975808127,9.87758547910511,21.0721823554242,M,inter
+"23;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","26;MFG, Middle Frontal Gyrus (A6vl, ventrolateral area 6)",1.86246292044916,11.6504854368932,18.8483428188818,M,inter
+"5;SFG, Superior Frontal Gyrus (A9l, lateral area 9)","28;MFG, Middle Frontal Gyrus (A10l, lateral area10)",1.73356865456369,2.9126213592233,5.58252427184466,M,inter
+"19;MFG, Middle Frontal Gyrus (A46, area 46)","28;MFG, Middle Frontal Gyrus (A10l, lateral area10)",2.05257225126218,2.87378640776699,7.84466019417476,M,inter
+"27;MFG, Middle Frontal Gyrus (A10l, lateral area10)","28;MFG, Middle Frontal Gyrus (A10l, lateral area10)",1.77472147853567,2.97709344660194,5.07054004854369,M,inter
+"24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","30;IFG, Inferior Frontal Gyrus (A44d,dorsal area 44)",1.68184996437404,14.8404993065187,24.8728617660657,M,intra
+"24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","37;IFG, Inferior Frontal Gyrus (A44op, opercular area 44)",2.16344589070626,8.7378640776699,16.504854368932,M,inter
+"26;MFG, Middle Frontal Gyrus (A6vl, ventrolateral area 6)","37;IFG, Inferior Frontal Gyrus (A44op, opercular area 44)",2.1834521476356,8.7378640776699,16.9902912621359,M,inter
+"36;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","37;IFG, Inferior Frontal Gyrus (A44op, opercular area 44)",1.89971683047663,7.76699029126214,17.3139158576052,M,inter
+"22;MFG, Middle Frontal Gyrus (A9/46v, ventral area 9/46)","39;IFG, Inferior Frontal Gyrus (A44v, ventral area 44)",2.28393265080805,7.44336569579288,18.1229773462783,M,inter
+"24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","39;IFG, Inferior Frontal Gyrus (A44v, ventral area 44)",1.70872910692164,11.6504854368932,19.0938511326861,M,inter
+"36;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","39;IFG, Inferior Frontal Gyrus (A44v, ventral area 44)",1.91355698877281,7.76699029126214,16.504854368932,M,inter
+"36;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","43;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)",1.7123999350878,7.44336569579288,16.8284789644013,M,inter
+"21;MFG, Middle Frontal Gyrus (A9/46v, ventral area 9/46)","44;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)",1.86040391280294,7.28155339805825,16.0194174757282,M,inter
+"31;IFG, Inferior Frontal Gyrus (IFS, inferior frontal sulcus)","44;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)",2.57348857583758,5.30744336569579,13.9805825242718,M,inter
+"35;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","44;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)",1.82471378456331,5.33980582524272,13.2281553398058,M,inter
+"43;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)","44;OrG, Orbital Gyrus (A12/47o, orbital area 12/47)",1.74094697981862,7.44336569579288,15.8576051779935,M,inter
+"22;MFG, Middle Frontal Gyrus (A9/46v, ventral area 9/46)","45;OrG, Orbital Gyrus (A11l, lateral area 11)",2.02612419986267,8.7378640776699,18.4466019417476,M,inter
+"32;IFG, Inferior Frontal Gyrus (IFS, inferior frontal sulcus)","45;OrG, Orbital Gyrus (A11l, lateral area 11)",2.16428159253991,6.79611650485437,16.504854368932,M,inter
+"36;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","45;OrG, Orbital Gyrus (A11l, lateral area 11)",2.13814334505346,5.63106796116505,15.3398058252427,M,inter
+"31;IFG, Inferior Frontal Gyrus (IFS, inferior frontal sulcus)","52;OrG, Orbital Gyrus (A12/47l, lateral area 12/47)",2.4020392126101,5.15567458988952,15.60093739538,M,inter
+"37;IFG, Inferior Frontal Gyrus (A44op, opercular area 44)","52;OrG, Orbital Gyrus (A12/47l, lateral area 12/47)",1.73615873148274,6.89320388349515,16.7961165048544,M,inter
+"45;OrG, Orbital Gyrus (A11l, lateral area 11)","52;OrG, Orbital Gyrus (A12/47l, lateral area 12/47)",2.17739448945201,5.24271844660194,16.1165048543689,M,inter
+"18;MFG, Middle Frontal Gyrus (IFJ, inferior frontal junction)","63;PrG, Precentral Gyrus (A6cvl, caudal ventrolateral area 6)",2.50947998890757,6.79611650485437,18.4466019417476,M,inter
+"30;IFG, Inferior Frontal Gyrus (A44d,dorsal area 44)","86;MTG, Middle Temporal Gyrus (A37dl, dorsolateral area37)",1.71091316207912,33.0929264909847,43.2038834951456,M,intra
+"77;STG, Superior Temporal Gyrus (A38l, lateral area 38)","98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)",1.68939041084253,18.4466019417476,25.7281553398058,M,inter
+"81;MTG, Middle Temporal Gyrus (A21c, caudal area 21)","98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)",1.89087436754998,18.4466019417476,29.126213592233,M,inter
+"98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","129;SPL, Superior Parietal Lobule (A5l, lateral area 5)",1.72197331472015,18.9320388349515,29.6116504854369,M,inter
+"98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","137;IPL, Inferior Parietal Lobule (A39rd, rostrodorsal area 39(Hip3))",1.75543714899328,17.6250933532487,26.5870052277819,M,inter
+"97;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","140;IPL, Inferior Parietal Lobule (A40rd, rostrodorsal area 40(PFt))",1.94153030344444,13.1067961165049,19.9029126213592,M,inter
+"99;ITG, Inferior Temporal Gyrus (A20cl, caudolateral of area 20)","140;IPL, Inferior Parietal Lobule (A40rd, rostrodorsal area 40(PFt))",1.79537212006918,14.1990291262136,21.2378640776699,M,inter
+"124;pSTS, posterior Superior Temporal Sulcus (cpSTS, caudoposterior superior temporal sulcus)","141;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.77739360901485,17.2330097087379,25.7281553398058,M,inter
+"81;MTG, Middle Temporal Gyrus (A21c, caudal area 21)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.69503865376109,11.9741100323625,21.3592233009709,M,inter
+"82;MTG, Middle Temporal Gyrus (A21c, caudal area 21)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.98671899497726,19.8335644937587,30.998613037448,M,intra
+"83;MTG, Middle Temporal Gyrus (A21r, rostral area 21)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.67714552066925,13.2686084142395,22.9773462783172,M,inter
+"86;MTG, Middle Temporal Gyrus (A37dl, dorsolateral area37)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",2.01341181349284,18.5830826018177,29.3557492478055,M,intra
+"98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.87010626060903,20.0647249190939,31.7152103559871,M,intra
+"100;ITG, Inferior Temporal Gyrus (A20cl, caudolateral of area 20)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",2.27703233230338,20.873786407767,35.4368932038835,M,intra
+"107;FuG, Fusiform Gyrus (A37lv, lateroventral area37)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.8284343412307,12.621359223301,22.3300970873786,M,inter
+"124;pSTS, posterior Superior Temporal Sulcus (cpSTS, caudoposterior superior temporal sulcus)","142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))",1.76362778331967,19.0177041690463,27.4985722444317,M,intra
+"103;FuG, Fusiform Gyrus (A20rv, rostroventral area 20)","144;IPL, Inferior Parietal Lobule (A39rv, rostroventral area 39(PGa))",1.82028186165247,17.4757281553398,28.1553398058252,M,inter
+"98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","145;IPL, Inferior Parietal Lobule (A40rv, rostroventral area 40(PFop))",2.11866249553487,16.0194174757282,27.6699029126214,M,inter
+"99;ITG, Inferior Temporal Gyrus (A20cl, caudolateral of area 20)","146;IPL, Inferior Parietal Lobule (A40rv, rostroventral area 40(PFop))",1.72933426010067,13.4368932038835,20.9708737864078,M,inter
+"133;SPL, Superior Parietal Lobule (A7ip, intraparietal area 7(hIP3))","146;IPL, Inferior Parietal Lobule (A40rv, rostroventral area 40(PFop))",1.76285895695628,17.4757281553398,25.8899676375404,M,inter
+"159;PoG, Postcentral Gyrus (A2, area 2)","160;PoG, Postcentral Gyrus (A2, area 2)",1.66984811275197,16.5481969486824,25.3120665742025,M,inter
+"135;IPL, Inferior Parietal Lobule (A39c, caudal area 39(PGp))","162;PoG, Postcentral Gyrus (A1/2/3tru, area1/2/3(trunk region))",1.74856172062489,20.873786407767,31.5533980582524,M,inter
+"36;IFG, Inferior Frontal Gyrus (A45r, rostral area 45)","167;INS, Insular Gyrus (dIa, dorsal agranular insula)",2.16428159253991,6.79611650485437,16.504854368932,M,inter
+"26;MFG, Middle Frontal Gyrus (A6vl, ventrolateral area 6)","169;INS, Insular Gyrus (vId/vIg, ventral dysgranular and granular insula)",1.8879816686891,12.2052704576976,21.497919556172,M,inter
+"24;MFG, Middle Frontal Gyrus (A8vl, ventrolateral area 8)","171;INS, Insular Gyrus (dIg, dorsal granular insula)",1.86836971784899,11.8932038834951,22.3300970873786,M,inter
+"26;MFG, Middle Frontal Gyrus (A6vl, ventrolateral area 6)","173;INS, Insular Gyrus (dId, dorsal dysgranular insula)",2.26341103018341,11.6504854368932,22.3300970873786,M,inter
+"106;FuG, Fusiform Gyrus (A37mv, medioventral area37)","190;MVOcC, MedioVentral Occipital Cortex (cLinG, caudal lingual gyrus)",1.88129866164016,5.09708737864078,12.621359223301,M,intra
+"108;FuG, Fusiform Gyrus (A37lv, lateroventral area37)","190;MVOcC, MedioVentral Occipital Cortex (cLinG, caudal lingual gyrus)",1.85677641894869,5.67354368932039,12.2572815533981,M,intra
+"142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))","209;LOcC, lateral Occipital Cortex (lsOccG, lateral superior occipital gyrus)",1.72348898194972,15.5339805825243,25.2427184466019,M,inter
+"98;ITG, Inferior Temporal Gyrus (A37vl, ventrolateral area 37)","217;Hipp, Hippocampus (cHipp, caudal hippocampus)",1.71547522367822,22.3300970873786,32.0388349514563,M,inter
+"142;IPL, Inferior Parietal Lobule (A40c, caudal area 40(PFm))","217;Hipp, Hippocampus (cHipp, caudal hippocampus)",1.72302959578902,15.5339805825243,25.2427184466019,M,inter
+"18;MFG, Middle Frontal Gyrus (IFJ, inferior frontal junction)","228;BG, Basal Ganglia (dCa, dorsal caudate)",1.68544407115328,18.7702265372168,28.3171521035599,M,intra
